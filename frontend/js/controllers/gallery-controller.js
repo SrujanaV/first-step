@@ -10,7 +10,7 @@ myApp.controller('GalleryCtrl', function ($scope, TemplateService, NavigationSer
     };
 
     //for season3
-    $scope.season3 = [ {
+    $scope.season3 = [{
             img1: 'img/season3/235.jpg',
             img2: 'img/small-season3/235.jpg',
         }, {
@@ -85,10 +85,12 @@ myApp.controller('GalleryCtrl', function ($scope, TemplateService, NavigationSer
         }, {
             img1: 'img/season3/259.jpg',
             img2: 'img/small-season3/259.jpg',
-        }, {
-            img1: 'img/season3/260.jpg',
-            img2: 'img/small-season3/260.jpg',
-        }, {
+        },
+        //  {
+        //     img1: 'img/season3/260.jpg',
+        //     img2: 'img/small-season3/260.jpg',
+        // }, 
+        {
             img1: 'img/season3/261.jpg',
             img2: 'img/small-season3/261.jpg',
         }, {
@@ -106,13 +108,17 @@ myApp.controller('GalleryCtrl', function ($scope, TemplateService, NavigationSer
         }, {
             img1: 'img/season3/266.jpg',
             img2: 'img/small-season3/266.jpg',
-        }, {
-            img1: 'img/season3/267.jpg',
-            img2: 'img/small-season3/267.jpg',
-        }, {
-            img1: 'img/season3/268.jpg',
-            img2: 'img/small-season3/268.jpg',
-        }, {
+        }
+        // , {
+        //     img1: 'img/season3/267.jpg',
+        //     img2: 'img/small-season3/267.jpg',
+        // }
+        // , {
+        //     img1: 'img/season3/268.jpg',
+        //     img2: 'img/small-season3/268.jpg',
+        // }
+        ,
+        {
             img1: 'img/season3/269.jpg',
             img2: 'img/small-season3/269.jpg',
         }, {
@@ -124,31 +130,39 @@ myApp.controller('GalleryCtrl', function ($scope, TemplateService, NavigationSer
         }, {
             img1: 'img/season3/272.jpg',
             img2: 'img/small-season3/272.jpg',
-        }, {
-            img1: 'img/season3/273.jpg',
-            img2: 'img/small-season3/273.jpg',
-        }, {
-            img1: 'img/season3/274.jpg',
-            img2: 'img/small-season3/274.jpg',
-        }, {
-            img1: 'img/season3/275.jpg',
-            img2: 'img/small-season3/275.jpg',
-        }, {
+        }
+        // , {
+        //     img1: 'img/season3/273.jpg',
+        //     img2: 'img/small-season3/273.jpg',
+        // }
+        // , {
+        //     img1: 'img/season3/274.jpg',
+        //     img2: 'img/small-season3/274.jpg',
+        // }
+        // , {
+        //     img1: 'img/season3/275.jpg',
+        //     img2: 'img/small-season3/275.jpg',
+        // }
+        , {
             img1: 'img/season3/276.jpg',
             img2: 'img/small-season3/276.jpg',
         }, {
             img1: 'img/season3/277.jpg',
             img2: 'img/small-season3/277.jpg',
-        }, {
-            img1: 'img/season3/278.jpg',
-            img2: 'img/small-season3/278.jpg',
-        }, {
-            img1: 'img/season3/279.jpg',
-            img2: 'img/small-season3/279.jpg',
-        }, {
-            img1: 'img/season3/280.jpg',
-            img2: 'img/small-season3/280.jpg',
-        }, {
+        }
+        // , {
+        //     img1: 'img/season3/278.jpg',
+        //     img2: 'img/small-season3/278.jpg',
+        // }
+        // , {
+        //     img1: 'img/season3/279.jpg',
+        //     img2: 'img/small-season3/279.jpg',
+        // }
+        // , {
+        //     img1: 'img/season3/280.jpg',
+        //     img2: 'img/small-season3/280.jpg',
+        // }
+        , {
             img1: 'img/season3/281.jpg',
             img2: 'img/small-season3/281.jpg',
         }, {
@@ -160,13 +174,16 @@ myApp.controller('GalleryCtrl', function ($scope, TemplateService, NavigationSer
         }, {
             img1: 'img/season3/284.jpg',
             img2: 'img/small-season3/284.jpg',
-        }, {
-            img1: 'img/season3/285.jpg',
-            img2: 'img/small-season3/285.jpg',
-        }, {
-            img1: 'img/season3/286.jpg',
-            img2: 'img/small-season3/286.jpg',
-        }, {
+        }
+        // , {
+        //     img1: 'img/season3/285.jpg',
+        //     img2: 'img/small-season3/285.jpg',
+        // }
+        // , {
+        //     img1: 'img/season3/286.jpg',
+        //     img2: 'img/small-season3/286.jpg',
+        // }
+        , {
             img1: 'img/season3/287.jpg',
             img2: 'img/small-season3/287.jpg',
         }, {
@@ -181,19 +198,24 @@ myApp.controller('GalleryCtrl', function ($scope, TemplateService, NavigationSer
         }, {
             img1: 'img/season3/291.jpg',
             img2: 'img/small-season3/291.jpg',
-        }, {
-            img1: 'img/season3/292.jpg',
-            img2: 'img/small-season3/292.jpg',
-        }, {
-            img1: 'img/season3/293.jpg',
-            img2: 'img/small-season3/293.jpg',
-        }, {
-            img1: 'img/season3/294.jpg',
-            img2: 'img/small-season3/294.jpg',
-        }, {
-            img1: 'img/season3/295.jpg',
-            img2: 'img/small-season3/295.jpg',
-        }, {
+        }
+        // , {
+        //     img1: 'img/season3/292.jpg',
+        //     img2: 'img/small-season3/292.jpg',
+        // }
+        // , {
+        //     img1: 'img/season3/293.jpg',
+        //     img2: 'img/small-season3/293.jpg',
+        // }
+        // , {
+        //     img1: 'img/season3/294.jpg',
+        //     img2: 'img/small-season3/294.jpg',
+        // }
+        // , {
+        //     img1: 'img/season3/295.jpg',
+        //     img2: 'img/small-season3/295.jpg',
+        // }
+        , {
             img1: 'img/season3/296.jpg',
             img2: 'img/small-season3/296.jpg',
         }, {
@@ -220,41 +242,52 @@ myApp.controller('GalleryCtrl', function ($scope, TemplateService, NavigationSer
         }, {
             img1: 'img/season3/304.jpg',
             img2: 'img/small-season3/304.jpg',
-        }, {
-            img1: 'img/season3/305.jpg',
-            img2: 'img/small-season3/305.jpg',
-        }, {
-            img1: 'img/season3/306.jpg',
-            img2: 'img/small-season3/306.jpg',
-        }, {
-            img1: 'img/season3/307.jpg',
-            img2: 'img/small-season3/307.jpg',
-        }, {
-            img1: 'img/season3/308.jpg',
-            img2: 'img/small-season3/308.jpg',
-        }, {
-            img1: 'img/season3/309.jpg',
-            img2: 'img/small-season3/309.jpg',
-        },{
+        }
+        // , {
+        //     img1: 'img/season3/305.jpg',
+        //     img2: 'img/small-season3/305.jpg',
+        // }
+        // , {
+        //     img1: 'img/season3/306.jpg',
+        //     img2: 'img/small-season3/306.jpg',
+        // }
+        // , {
+        //     img1: 'img/season3/307.jpg',
+        //     img2: 'img/small-season3/307.jpg',
+        // }
+        // , {
+        //     img1: 'img/season3/308.jpg',
+        //     img2: 'img/small-season3/308.jpg',
+        // // }
+        // , {
+        //     img1: 'img/season3/309.jpg',
+        //     img2: 'img/small-season3/309.jpg',
+        // }
+        , {
             img1: 'img/season3/234.jpg',
             img2: 'img/small-season3/234.jpg',
         },
         {
             img1: 'img/season3/233.jpg',
             img2: 'img/small-season3/233.jpg',
-        }, {
-            img1: 'img/season3/232.jpg',
-            img2: 'img/small-season3/232.jpg',
-        }, {
-            img1: 'img/season3/231.jpg',
-            img2: 'img/small-season3/231.jpg',
-        }, {
-            img1: 'img/season3/230.jpg',
-            img2: 'img/small-season3/230.jpg',
-        }, {
-            img1: 'img/season3/229.jpg',
-            img2: 'img/small-season3/229.jpg',
-        }, {
+        }
+        // , {
+        //     img1: 'img/season3/232.jpg',
+        //     img2: 'img/small-season3/232.jpg',
+        // }
+        // , {
+        //     img1: 'img/season3/231.jpg',
+        //     img2: 'img/small-season3/231.jpg',
+        // }
+        // , {
+        //     img1: 'img/season3/230.jpg',
+        //     img2: 'img/small-season3/230.jpg',
+        // }
+        // , {
+        //     img1: 'img/season3/229.jpg',
+        //     img2: 'img/small-season3/229.jpg',
+        // }
+        , {
             img1: 'img/season3/228.jpg',
             img2: 'img/small-season3/228.jpg',
         }, {
@@ -932,10 +965,10 @@ myApp.controller('GalleryCtrl', function ($scope, TemplateService, NavigationSer
         $scope.view3 = false;
     }
     $scope.viewLess3 = function () {
-            $scope.more3 = false;
-            $scope.view3 = true;
-        }
-        //end of season3
+        $scope.more3 = false;
+        $scope.view3 = true;
+    }
+    //end of season3
 
     //for season2
     $scope.season2 = [{
@@ -1044,10 +1077,10 @@ myApp.controller('GalleryCtrl', function ($scope, TemplateService, NavigationSer
         $scope.view2 = false;
     }
     $scope.viewLess2 = function () {
-            $scope.more2 = false;
-            $scope.view2 = true;
-        }
-        //end of season2
+        $scope.more2 = false;
+        $scope.view2 = true;
+    }
+    //end of season2
 
     //for season1
     $scope.season1 = [{
@@ -1192,9 +1225,9 @@ myApp.controller('GalleryCtrl', function ($scope, TemplateService, NavigationSer
         $scope.view1 = false;
     }
     $scope.viewLess1 = function () {
-            $scope.more1 = false;
-            $scope.view1 = true;
-        }
-        //end of season1
+        $scope.more1 = false;
+        $scope.view1 = true;
+    }
+    //end of season1
 
 })
